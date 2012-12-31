@@ -4,10 +4,15 @@
 	<link rel="stylesheet" href="https://raw.github.com/necolas/normalize.css/master/normalize.css">
 	<style type="text/css">
 	  @import url(css/reset.css);
+	  body {
+	  	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	  	background-color: rgba(14, 32, 59, .04)
+	  }
 
       #header {
       	width: 100%;
-      	height: 100px;
+      	height: 70px;
+      	background-color: rgba(14, 32, 59, .05)
       }
       #logo {
       	float: left;
@@ -25,22 +30,28 @@
 	  #sign ul li{
 
 	  }
-	  #content ul li .class {
+	  #content ul li .strong {
 	  	font: bold;
 	  }
 
 	  #signup {
-	  	width: 250px;
+	  	width: 300px;
 	  	height: 200px;
 	  	background-color: red;
 	  	line-height: 2;
 	  	font-size: 20px;
+	  	float: right;
+	  	margin-right: 50px;
+	  	background-color: rgba(14, 32, 59, .05)
 	  }
-
-
-
-
-
+	  #signup p {
+	  	text-align: right;	
+	  }
+	  #signup p .input {
+	  	border: solid 1px black;
+	  	margin-right: 25px;
+	  }
+	  
 
       #footer {
       	position: fixed;
@@ -64,7 +75,6 @@
 		<div id="sign">
 			<ul>
 				<li><a href="">login</a></li>
-				<li><a href="">sign up</a></li>
 			</ul>
 		</div>
 	</header>
@@ -87,10 +97,10 @@
             </ul>
             <div id="signup">
             	<form action="" method="get">
-            		<p>email: <input type="text" name="email" /></p>
-				    <p>name: <input type="text" name="name" /></p>
-				    <p>password: <input type="text" name="password" /></p>
-				    <p>confirm: <input type="text" name="comfirm" /></p>
+            		<p>email: <input class="input" type="text" name="email" /></p>
+				    <p>name: <input class="input" type="text" name="name" /></p>
+				    <p>password: <input class="input" type="text" name="password" /></p>
+				    <p>confirm: <input class="input" type="text" name="comfirm" /></p>
 				    <button>sign up</button>
             	</form>
             </div>              	
