@@ -3,11 +3,53 @@
 	<title>mobull MDM system</title>
 	<link rel="stylesheet" href="https://raw.github.com/necolas/normalize.css/master/normalize.css">
 	<style type="text/css">
-	  /*@import url(css/reset.css)*/
-	  * { padding: 0; margin: 0; border: 0; }
+	  @import url(css/reset.css);
+
+      #header {
+      	width: 100%;
+      	height: 100px;
+      }
+      #logo {
+      	float: left;
+      	font-size: 3em;
+      	line-height: 52px;
+      	margin-top: 10px;
+      }
+	  #nav ul li {
+	  	float: left;
+	  	margin: 46px 30px 0 30px;
+	  }
+	  #nav ul li a {
+	  	text-decoration: none;
+	  }
+	  #sign ul li{
+
+	  }
+	  #content ul li .class {
+	  	font: bold;
+	  }
+
+	  #signup {
+	  	width: 250px;
+	  	height: 200px;
+	  	background-color: red;
+	  	line-height: 2;
+	  	font-size: 20px;
+	  }
+
+
+
+
+
+
+      #footer {
+      	position: fixed;
+      	bottom: 0;
+      }
 	</style>
 </head>
 	<body>
+	<header id="header" class="">
 		<div id="logo">
 			<h2><em>mobull</em></h2>
 		</div>
@@ -19,9 +61,39 @@
 				<li><a href="">about us</a></li>
 			</ul>
 		</div>
+		<div id="sign">
+			<ul>
+				<li><a href="">login</a></li>
+				<li><a href="">sign up</a></li>
+			</ul>
+		</div>
+	</header>
         <div id="content">
             <h1>The world's best and easiest MDM system.</h1>
-            <p>blablabla...<em>blabla</em></p>       	
+            <ul>
+            	<li class="strong">Secure smartphone and tablets</li>
+            	<li>a)	enforce a password policy</li>
+            	<li>b)	lock and wipe mobile device</li>
+            	<li class="strong">Protect corporate data</li>
+            	<li>a)	cannot access to corporate data in specific area and time</li>
+            	<li>b)	erase device’s data at enterprise-level</li>
+            	<li class="strong">Find and track mobile device</li>
+            	<li>a)	locate any device</li>
+            	<li>b)	full location history </li>
+            	<li>c)	real time location and statues</li>
+            	<li class="strong">manage Apps on smartpones and tables</li>
+            	<li>a)	review Apps installed on all devices</li>
+            	<li>b)	deploy Apps without using iTunes and play</li>
+            </ul>
+            <div id="signup">
+            	<form action="" method="get">
+            		<p>email: <input type="text" name="email" /></p>
+				    <p>name: <input type="text" name="name" /></p>
+				    <p>password: <input type="text" name="password" /></p>
+				    <p>confirm: <input type="text" name="comfirm" /></p>
+				    <button>sign up</button>
+            	</form>
+            </div>              	
         </div>
         <div id="footer">
         	<p><a href="">copy right</a></p>
