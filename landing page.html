@@ -6,7 +6,8 @@
 	  @import url(css/reset.css);
 	  body {
 	  	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	  	background-color: rgba(14, 32, 59, .04)
+	  	background-color: rgba(14, 32, 59, .04);
+	  	min-width: 1024px;
 	  }
 
       #header {
@@ -36,17 +37,20 @@
 	    background-color: rgba(14, 32, 59, .05);
 	    margin: 0 0 0 100px;
 	  }
-
 	  #login button a {
 	    text-decoration: none;
-	    color: blue;
-	    
+	    color: blue;	    
 	  }
 	  #content h1 {
 	    font-size: 50px;
 	    color: rgba(14, 32, 59, .07);
+	  }	 
+	  #content #benefits li {
+	    margin: 30px 20px;
 	  }
-
+	  #benefits {
+	  float: left;
+	  }
 	  #signup {
 	  	width: 300px;
 	  	height: 200px;
@@ -103,20 +107,24 @@
 	</header>
         <div id="content">
             <h1>The world's best and easiest MDM system.</h1>
-            <ul>
-            	<li><strong>Secure smartphone and tablets</strong></li>
-            	<li> a)	enforce a password policy</li>
-            	<li> b)	lock and wipe mobile device</li>
-            	<li><strong>Protect corporate data</strong></li>
-            	<li> a)	cannot access to corporate data in specific area and time</li>
-            	<li> b)	erase device’s data at enterprise-level</li>
-            	<li><strong>Find and track mobile device</strong></li>
-            	<li> a)	locate any device</li>
-            	<li> b)	full location history </li>
-            	<li> c)	real time location and statues</li>
-            	<li><strong>manage Apps on smartpones and tables</strong></li>
-            	<li> a)	review Apps installed on all devices</li>
-            	<li> b)	deploy Apps without using iTunes and play</li>
+            <ul id="benefits">
+            	<li><p><strong>Secure smartphone and tablets</strong></p>
+            	<p> a)	enforce a password policy</p>
+            	<p> b)	lock and wipe mobile device</p>
+            	</li>
+            	<li><p><strong>Protect corporate data</strong></p>
+            	<p> a)	cannot access to corporate data in specific area and time</p>
+            	<p> b)	erase device’s data at enterprise-level</p>
+            	</li>
+            	<li><p><strong>Find and track mobile device</strong></p>
+            	<p> a)	locate any device</p>
+            	<p> b)	full location history </p>
+            	<p> c)	real time location and statues</p>
+            	</li>
+            	<li><p><strong>manage Apps on smartpones and tables</strong></p>
+            	<p> a)	review Apps installed on all devices</p>
+            	<p> b)	deploy Apps without using iTunes and play</p>
+            	</li>
             </ul>
             <div id="signup">
             	<form action="" method="get">
