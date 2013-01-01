@@ -27,22 +27,35 @@
 	  #nav ul li a {
 	  	text-decoration: none;
 	  }
-	  #sign ul li{
-
+	  #login p {
+	    text-align: right;
+	    margin: 0 50px 0 0;
+        padding: 5px 0 0 0;
 	  }
-	  #content ul li .strong {
-	  	font: bold;
+	  #login button {
+	    background-color: rgba(14, 32, 59, .05);
+	    margin: 0 0 0 100px;
+	  }
+
+	  #login button a {
+	    text-decoration: none;
+	    color: blue;
+	    
+	  }
+	  #content h1 {
+	    font-size: 50px;
+	    color: rgba(14, 32, 59, .07);
 	  }
 
 	  #signup {
 	  	width: 300px;
 	  	height: 200px;
-	  	background-color: red;
 	  	line-height: 2;
 	  	font-size: 20px;
 	  	float: right;
 	  	margin-right: 50px;
-	  	background-color: rgba(14, 32, 59, .05)
+	  	background-color: rgba(14, 32, 59, .05);
+	  	position:relative;
 	  }
 	  #signup p {
 	  	text-align: right;	
@@ -51,8 +64,16 @@
 	  	border: solid 1px black;
 	  	margin-right: 25px;
 	  }
-	  
+	  #signup button a {
+	    margin: 0 100px 0 100px;
+	    font-size: 25px;
+		padding: 2px 8px;
+		background-color: blue;
+		text-decoration: none;
+		color: yellow;
 
+	  }
+	  
       #footer {
       	position: fixed;
       	bottom: 0;
@@ -72,28 +93,30 @@
 				<li><a href="">about us</a></li>
 			</ul>
 		</div>
-		<div id="sign">
-			<ul>
-				<li><a href="">login</a></li>
-			</ul>
+		<div id="login">
+			<form action="" method="get">
+            		<p>name: <input class="input" type="text" name="name" /></p>
+				    <p>password: <input class="input" type="text" name="password" /></p>
+				    <button><a href="">login</a></button>
+            </form>
 		</div>
 	</header>
         <div id="content">
             <h1>The world's best and easiest MDM system.</h1>
             <ul>
-            	<li class="strong">Secure smartphone and tablets</li>
-            	<li>a)	enforce a password policy</li>
-            	<li>b)	lock and wipe mobile device</li>
-            	<li class="strong">Protect corporate data</li>
-            	<li>a)	cannot access to corporate data in specific area and time</li>
-            	<li>b)	erase device’s data at enterprise-level</li>
-            	<li class="strong">Find and track mobile device</li>
-            	<li>a)	locate any device</li>
-            	<li>b)	full location history </li>
-            	<li>c)	real time location and statues</li>
-            	<li class="strong">manage Apps on smartpones and tables</li>
-            	<li>a)	review Apps installed on all devices</li>
-            	<li>b)	deploy Apps without using iTunes and play</li>
+            	<li><strong>Secure smartphone and tablets</strong></li>
+            	<li> a)	enforce a password policy</li>
+            	<li> b)	lock and wipe mobile device</li>
+            	<li><strong>Protect corporate data</strong></li>
+            	<li> a)	cannot access to corporate data in specific area and time</li>
+            	<li> b)	erase device’s data at enterprise-level</li>
+            	<li><strong>Find and track mobile device</strong></li>
+            	<li> a)	locate any device</li>
+            	<li> b)	full location history </li>
+            	<li> c)	real time location and statues</li>
+            	<li><strong>manage Apps on smartpones and tables</strong></li>
+            	<li> a)	review Apps installed on all devices</li>
+            	<li> b)	deploy Apps without using iTunes and play</li>
             </ul>
             <div id="signup">
             	<form action="" method="get">
@@ -101,7 +124,7 @@
 				    <p>name: <input class="input" type="text" name="name" /></p>
 				    <p>password: <input class="input" type="text" name="password" /></p>
 				    <p>confirm: <input class="input" type="text" name="comfirm" /></p>
-				    <button>sign up</button>
+				    <button><a href="">sign up</a></button>
             	</form>
             </div>              	
         </div>
