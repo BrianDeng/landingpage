@@ -24,12 +24,21 @@
       	line-height: 52px;
       	margin-top: 10px;
       }
-	  #nav ul li {
-	  	float: left;
-	  	margin: 46px 30px 0 30px;
+	  nav ul li {
+	    float: left;
+	  	display: inline-block;
+		position: relative;
+		width: 70px;
+		height: 50px;
+		margin: 46px 20px 0 20px;
+		text-align: center;
+		font-size: 13px;
+		font-family: 'HelveticaNeueLTStdBold', helvetica, arial;
+		font-weight: bold;
 	  }
-	  #nav ul li a {
+	  nav ul li a {
 	  	text-decoration: none;
+	  	color:#494949;
 	  }
 	  #login p {
 	    text-align: right;
@@ -92,14 +101,13 @@
 		<div id="logo">
 			<h2><em>mobull</em></h2>
 		</div>
-		<div id="nav">
+		<nav>
 			<ul>
-				<li><a href="">preview</a></li>
-				<li><a href="">purchase</a></li>
-				<li><a href="">contact us</a></li>
-				<li><a href="">about us</a></li>
+				<li><a href="">Preview</a></li>
+				<li><a href="">Purchase</a></li>
+				<li><a href="">Contact Us</a></li>
+				<li><a href="">About Us</a></li>
 			</ul>
-		</div>
 		<div id="login">
 			<form action="" method="get">
             		<p>name: <input class="input" type="text" name="name" /></p>
@@ -107,6 +115,7 @@
 				    <button><a href="">login</a></button>
             </form>
 		</div>
+		</nav>
 	</header>
         <div id="content">
             <h1>The world's best and easiest MDM system.</h1>
