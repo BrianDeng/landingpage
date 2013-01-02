@@ -11,6 +11,7 @@
 		font-size: 18px;
 		color: #494949;
 		min-width: 1024px;
+		max-width: 1024px;
 		background: #202020;
 	  }
       #header {
@@ -61,7 +62,7 @@
 	    -webkit-transition: background-color .6s linear;
 	  }
 	  #content {
-	    background: url(image/背景1.jpg);
+	    background: url(image/background1.jpg);
 	    height: 636px;
 	  }
 	  #contentinner {
@@ -82,10 +83,10 @@
         text-align: center;
         padding: 0 0 30px 0;
 	  }
-	  #content #benefits li {
-	    margin: 30px 20px;
-	  }
-	  #benefits {
+	  #contentimage {
+	    height: 479px;
+	    width: 540px;
+	    background: url(image/contenmain.png);
 	    float: left;
 	  }
 	  #signup {	  
@@ -95,7 +96,7 @@
         height: 435px;
         padding:30px 0 0 0;
 	  }
-	  #signup p {
+	  #signup h3 {
 	    font-family: 'HelveticaNeueLTStdBold', helvetica, sans-serif;
         color: white;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -135,6 +136,18 @@
 		color: white;
 		cursor: pointer;
 	  }
+	  #signup p {
+	    font-family: 'HelveticaNeueLTStdLtRegular', helvetica, sans-serif;
+		font-size: 12px;
+		color: white;
+		text-align: center;
+		margin: 15px 0 0 0;
+	  }
+	  #signup p a {
+	    color: #2EC34D;
+        text-decoration: none;
+        cursor: pointer;
+	  }
 	  
       #footer {
       	position: fixed;
@@ -164,8 +177,9 @@
             <h1>Manage large scale deployments of mobile devices.</h1>
             <h2>Your support costs and business security risks will be lowered.</h2>
             </div>
+            <div id="contentimage"></div>
             <div id="signup">
-                <p>Sign up today</p>
+                <h3>Sign up today</h3>
             	<form action="" method="get">
             	    <label>company/brand:</label>
             	    <input class="input" type="text" name="email" />
@@ -175,7 +189,15 @@
 				    <input class="input" type="text" name="password" />			    
 				    <a href=""><button>sign up for free</button></a>
             	</form>
+            	<p>
+				By clicking “Signup for Free,” you agree to<br>
+				the <a href="">Terms of Service</a>, <a href="">Privacy Policy</a>,<br>
+				and <a href="">Refund Policies</a>.
+			    </p>
             </div>              	
+        </div>
+        <div id="benefits">
+        	
         </div>
         <div id="footer">
         	<p><a href="">copy right</a></p>
