@@ -39,7 +39,7 @@
 		margin: 29px 20px 0 20px;
 		text-align: center;
 		font-size: 13px;
-		font-family: 'HelveticaNeueLTStdBold', helvetica, arial;
+		font-family: geneva, tahoma, "dejavu sans condensed", sans-serif;
 		font-weight: bold;
 	  }
 	  nav ul li a {
@@ -66,18 +66,27 @@
 	  }
 	  #contentinner {
 	    background:rgba(0, 0, 0, .22);
-	    padding: 30px 0; 
+	     
+	    color: white;
+	    text-shadow: 0 1px 1px rgba(0, 0, 0, .38);
 	  }
 	  #contentinner h1 {
 	    font-size: 41px;
-	    color: white;
-
+	    padding: 30px 0;
 	  }	 
+	  #contentinner h2 {
+	    font-family: "palatino linotype", palatino, palladio, 
+            "urw palladio l", "book antiqua", 
+            "liberation serif", times, serif;
+        font-weight: normal;
+        text-align: center;
+        padding: 0 0 30px 0;
+	  }
 	  #content #benefits li {
 	    margin: 30px 20px;
 	  }
 	  #benefits {
-	  float: left;
+	    float: left;
 	  }
 	  #signup {
 	  	width: 300px;
@@ -96,6 +105,7 @@
 	  	border: solid 1px black;
 	  	margin-right: 25px;
 	  }
+
 	  #signup button a {
 	    margin: 0 100px 0 100px;
 	    font-size: 25px;
@@ -103,7 +113,6 @@
 		background-color: blue;
 		text-decoration: none;
 		color: yellow;
-
 	  }
 	  
       #footer {
@@ -132,26 +141,8 @@
         <div id="content">
             <div id="contentinner">
             <h1>Manage large scale deployments of mobile devices.</h1>
+            <h2>Your support costs and business security risks will be lowered.</h2>
             </div>
-            <ul id="benefits">
-            	<li><p><strong>Secure smartphone and tablets</strong></p>
-            	<p> a)	enforce a password policy</p>
-            	<p> b)	lock and wipe mobile device</p>
-            	</li>
-            	<li><p><strong>Protect corporate data</strong></p>
-            	<p> a)	cannot access to corporate data in specific area and time</p>
-            	<p> b)	erase device’s data at enterprise-level</p>
-            	</li>
-            	<li><p><strong>Find and track mobile device</strong></p>
-            	<p> a)	locate any device</p>
-            	<p> b)	full location history </p>
-            	<p> c)	real time location and statues</p>
-            	</li>
-            	<li><p><strong>manage Apps on smartpones and tables</strong></p>
-            	<p> a)	review Apps installed on all devices</p>
-            	<p> b)	deploy Apps without using iTunes and play</p>
-            	</li>
-            </ul>
             <div id="signup">
             	<form action="" method="get">
             		<p>email: <input class="input" type="text" name="email" /></p>
