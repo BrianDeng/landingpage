@@ -88,31 +88,52 @@
 	  #benefits {
 	    float: left;
 	  }
-	  #signup {
-	  	width: 300px;
-	  	height: 200px;
-	  	line-height: 2;
-	  	font-size: 20px;
-	  	float: right;
-	  	margin-right: 50px;
-	  	background-color: rgba(14, 32, 59, .05);
-	  	position:relative;
+	  #signup {	  
+	    float: right;	
+	  	position: relative;
+        width: 340px;
+        height: 435px;
+        padding:30px 0 0 0;
 	  }
 	  #signup p {
-	  	text-align: right;	
+	    font-family: 'HelveticaNeueLTStdBold', helvetica, sans-serif;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        font-size: 24px;
+        margin-bottom: 15px;
 	  }
-	  #signup p .input {
-	  	border: solid 1px black;
-	  	margin-right: 25px;
+	  #signup label {
+	    font-family: 'HelveticaNeueLTStdMedRegular', helvetica, sans-serif;
+		color: white;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+		line-height: .8em;
+		height: 15px;
+		display: block;
+		padding: 5px 0;
+		margin-top: 10px;
+	  }
+	  #signup .input {
+	  	width: 278px;
+        height: 33px;
+		padding: 5px 10px;
+		font-size: 16px;
+		color: #666;
+		border: 1px solid #ACACAC;
+		background-color: white;
+		border-radius: 4px;
 	  }
 
-	  #signup button a {
-	    margin: 0 100px 0 100px;
-	    font-size: 25px;
-		padding: 2px 8px;
-		background-color: blue;
-		text-decoration: none;
-		color: yellow;
+	  #signup a  button{
+	    width: 300px;
+        height: 60px;
+		text-align: center;
+		font-size: 24px;
+		margin-top: 20px;
+		border-radius: 4px;
+		background: #7DC142;
+		color: white;
+		cursor: pointer;
 	  }
 	  
       #footer {
@@ -144,12 +165,15 @@
             <h2>Your support costs and business security risks will be lowered.</h2>
             </div>
             <div id="signup">
+                <p>Sign up today</p>
             	<form action="" method="get">
-            		<p>email: <input class="input" type="text" name="email" /></p>
-				    <p>name: <input class="input" type="text" name="name" /></p>
-				    <p>password: <input class="input" type="text" name="password" /></p>
-				    <p>confirm: <input class="input" type="text" name="comfirm" /></p>
-				    <button><a href="">sign up</a></button>
+            	    <label>company/brand:</label>
+            	    <input class="input" type="text" name="email" />
+            		<label>email:</label> 
+            		<input class="input" type="text" name="email" />
+				    <label>password: </label>
+				    <input class="input" type="text" name="password" />			    
+				    <a href=""><button>sign up for free</button></a>
             	</form>
             </div>              	
         </div>
