@@ -10,7 +10,7 @@
 		font-family: 'HelveticaNeueLTStdLtRegular', helvetica, Arial, sans-serif;
 		font-size: 18px;
 		color: #494949;
-		min-width: 1200px;
+		min-width: 1024px;
 		background: #202020;
 	  }
       #header {
@@ -26,7 +26,7 @@
       }
       nav {
         float: left;
-		width: 800px;
+		width: 700px;
 		margin: 25px 0 0 40px;
       }
       nav ul {
@@ -60,9 +60,18 @@
 	    transition: background-color .6s linear;
 	    -webkit-transition: background-color .6s linear;
 	  }
-	  #content h1 {
-	    font-size: 50px;
-	    color: rgba(14, 32, 59, .07);
+	  #content {
+	    background: url(image/背景1.jpg);
+	    height: 636px;
+	  }
+	  #contentinner {
+	    background:rgba(0, 0, 0, .22);
+	    padding: 30px 0; 
+	  }
+	  #contentinner h1 {
+	    font-size: 41px;
+	    color: white;
+
 	  }	 
 	  #content #benefits li {
 	    margin: 30px 20px;
@@ -104,7 +113,7 @@
 	</style>
 </head>
 	<body>
-	<header id="header" class="">
+	<header id="header" >
 		<div id="logo">
 			<h2><em>mobull</em></h2>
 		</div>
@@ -121,7 +130,9 @@
 		</nav>
 	</header>
         <div id="content">
-            <h1>The world's best and easiest MDM system.</h1>
+            <div id="contentinner">
+            <h1>Manage large scale deployments of mobile devices.</h1>
+            </div>
             <ul id="benefits">
             	<li><p><strong>Secure smartphone and tablets</strong></p>
             	<p> a)	enforce a password policy</p>
