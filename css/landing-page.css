@@ -1,0 +1,197 @@
+      body {
+	  	margin: 0;
+		padding: 0;
+		font-family: 'HelveticaNeueLTStdLtRegular', helvetica, Arial, sans-serif;
+		font-size: 18px;
+		color: #494949;
+		min-width: 1200px;
+	  }
+      #header {
+      	min-height: 96px;
+        background: white;
+        border-bottom: 1px solid #B5B5B5;
+      }
+      #logo {
+      	float: left;
+      	font-size: 3em;
+      	line-height: 52px;
+      	margin-top: 10px;
+      }
+      nav {
+        float: left;
+		width: 70%;
+		margin: 25px 0 0 40px;
+      }
+      nav ul {
+        float: left;
+      }
+	  nav ul li {
+	  	display: inline-block;
+		position: relative;
+		margin: 29px 20px 0 20px;
+		text-align: center;
+		font-size: 13px;
+		font-family: geneva, tahoma, "dejavu sans condensed", sans-serif;
+		font-weight: bold;
+	  }
+	  nav ul li a {
+	  	text-decoration: none;
+	  	color: #a3a3a3;
+	  }
+	  #signupbutton {
+	    float: right;
+	    margin-top: 20px 
+	  }
+	  #signupbutton a {
+	    padding: 8px 15px;
+	    font-size: 12px;
+	    color: white;
+	    text-decoration: none;
+	    background: #7DC142;
+	    border-radius: 3px;
+	  }
+	  #content {
+	    background: url(../image/background1.jpg) no-repeat;
+	    width:100%;
+	    height: 636px;
+	  }
+	  #contentinner {
+	    width: 100%;
+	    background:rgba(0, 0, 0, .22);
+	    text-align: center; 
+	    color: white;
+	    text-shadow: 0 1px 1px rgba(0, 0, 0, .38);
+	  }
+	  #contentinner h1 {
+	    font-size: 41px;
+	    padding: 30px 0;
+	  }	 
+	  #contentinner h2 {
+	    font-family: "palatino linotype", palatino, palladio, 
+            "urw palladio l", "book antiqua", 
+            "liberation serif", times, serif;
+        font-weight: normal;
+        padding: 0 0 30px 0;
+	  }
+	  #contentimage {
+	    height: 478px;
+	    width: 540px;
+	    background: url(../image/contenmain.png) no-repeat;
+	    float: left;
+	  }
+	  #signup {	  
+	    float: right;	
+	  	position: relative;
+        width: 340px;
+        height: 435px;
+        padding:30px 30px 0 0;
+	  }
+	  #signup h3 {
+	    font-family: 'HelveticaNeueLTStdBold', helvetica, sans-serif;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        font-size: 24px;
+        margin-bottom: 15px;
+	  }
+	  #signup label {
+	    font-family: 'HelveticaNeueLTStdMedRegular', helvetica, sans-serif;
+		color: white;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+		line-height: .8em;
+		height: 15px;
+		display: block;
+		padding: 5px 0;
+		margin-top: 10px;
+	  }
+	  #signup .input {
+	  	width: 278px;
+        height: 33px;
+		padding: 5px 10px;
+		font-size: 16px;
+		color: #666;
+		border: 1px solid #ACACAC;
+		background-color: white;
+		border-radius: 4px;
+	  }
+
+	  #signup a  button{
+	    width: 300px;
+        height: 60px;
+		text-align: center;
+		font-size: 24px;
+		margin-top: 20px;
+		border-radius: 4px;
+		background: #7DC142;
+		color: white;
+		cursor: pointer;
+	  }
+	  #signup p {
+	    font-family: 'HelveticaNeueLTStdLtRegular', helvetica, sans-serif;
+		font-size: 12px;
+		color: white;
+		text-align: center;
+		margin: 15px 0 0 0;
+	  }
+	  #signup p a {
+	    color: #2EC34D;
+        text-decoration: none;
+        cursor: pointer;
+	  }
+
+	  #benefits {
+	    background: white; 
+	  }
+	  #benefits h3 {
+	    color: black;
+	    font-size: 23px;
+        color: #232121;
+        font-family: 'HelveticaNeueLTStdMedRegular', helvetica, sans-serif;
+	  }
+	  #benefits ul li {
+	    display: inline;
+	    float: left;
+	    width: 255px;
+	    height: 160px;
+        margin: 40px 0;
+	  }
+	  #benefits ul li.leftsection {
+        padding: 0 20px 40px 0;
+        border-right: 5px solid #ECECEC; 
+
+	  }
+	  #benefits ul li.middlesection {
+	    padding: 0 20px 40px 35px;
+	    border-right: 5px solid #ECECEC;
+	  }
+	  #benefits ul li.rightsection {
+	    padding: 0 0 40px 35px;
+	  }
+	  #benefits ul li p {
+	    line-height: 1.75;
+	    margin-top: 20px;
+	    font-weight: normal;
+	    font-size: 16px;
+	  }	  
+	  footer {
+	    float: left;
+	    width: 100%;
+	    background: #202020;
+	    padding: 40px 0
+	  }
+	  footer ul {
+	    margin: 0 0 20px 0;
+	    text-align: center;
+	  }
+      footer ul li { 
+        color: #606060; 
+        display: inline-block;
+		padding: 0 7px;
+		border-right: 1px solid #606060;
+		font-size: 16px;
+		color: #606060;     
+      }
+      footer ul li a {
+        text-decoration: none;
+        color: #606060;       
+      }
