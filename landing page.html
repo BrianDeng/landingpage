@@ -10,9 +10,7 @@
 		font-family: 'HelveticaNeueLTStdLtRegular', helvetica, Arial, sans-serif;
 		font-size: 18px;
 		color: #494949;
-		min-width: 1024px;
-		max-width: 1024px;
-		background: #202020;
+		min-width: 1200px;
 	  }
       #header {
       	min-height: 96px;
@@ -65,6 +63,7 @@
 	    height: 636px;
 	  }
 	  #contentinner {
+	    width: 100%;
 	    background:rgba(0, 0, 0, .22);
 	    text-align: center; 
 	    color: white;
@@ -82,7 +81,7 @@
         padding: 0 0 30px 0;
 	  }
 	  #contentimage {
-	    height: 479px;
+	    height: 478px;
 	    width: 540px;
 	    background: url(image/contenmain.png) no-repeat;
 	    float: left;
@@ -146,6 +145,42 @@
         text-decoration: none;
         cursor: pointer;
 	  }
+
+	  #benefits {
+	    background: white; 
+	  }
+	  #benefits h3 {
+	    color: black;
+	    font-size: 23px;
+        color: #232121;
+        font-family: 'HelveticaNeueLTStdMedRegular', helvetica, sans-serif;
+	  }
+	  #benefits ul li {
+	    display: inline;
+	    float: left;
+	    width: 255px;
+	    height: 160px;
+        margin: 40px 0;
+	  }
+	  #benefits ul li.leftsection {
+        padding: 0 20px 40px 0;
+        border-right: 5px solid #ECECEC; 
+
+	  }
+	  #benefits ul li.middlesection {
+	    padding: 0 20px 40px 35px;
+	    border-right: 5px solid #ECECEC;
+	  }
+	  #benefits ul li.rightsection {
+	    padding: 0 0 40px 35px;
+	  }
+	  #benefits ul li p {
+	    line-height: 1.75;
+	    margin-top: 20px;
+	    font-weight: normal;
+	  }
+
+
 	  
       #footer {
       	position: fixed;
@@ -195,28 +230,27 @@
             </div>              	
         </div>
         <div id="benefits">
+
         	<ul>
-        		<li><strong>Secure smartphone and tablets</strong><br>
-					a)	enforce a password policy<br>
-					b)	lock and wipe mobile device<br>
+        	    <li class="leftsection"><h3>Protect your corporate data</h3>
+					<p>a)	cannot access to corporate data in specific area and time<br>
+					   b)	erase device’s data at enterprise-level<br></p>
 					</li>
-        		<li><strong>Protect corporate data</strong><br>
-					a)	cannot access to corporate data in specific area and time<br>
-					b)	erase device’s data at enterprise-level<br>
+        		<li class="middlesection"><h3>Secure smartphone and tablets</h3>
+					<p>a)	enforce a password policy<br>
+					   b)	lock and wipe mobile device<br> </p>
+					</li>        		
+        		<li class="middlesection"><h3>Find and track mobile device</h3>
+					<p>a)	locate any device<br>
+					   b)	full location history<br>
+					   c)	real time location and statues<br></p>
 					</li>
-        		<li><strong>Find and track mobile device</strong><br>
-					a)	locate any device<br>
-					b)	full location history<br>
-					c)	real time location and statues<br>
-					</li>
-        		<li><strong>Manage Apps on smartpones and tables</strong><br>
-					a)	review Apps installed on all devices<br>
-					b)	simply deploy Apps  through net<br>
+        		<li class="rightsection"><h3>Manage Apps on smartpones and tables</h3>
+					<p>a)	review Apps installed on all devices<br>
+					   b)	simply deploy Apps  through net<br></p>  
 					</li>
         	</ul>
-			
-			
-			
+
         </div>
         <div id="footer">
         	<p><a href="">copy right</a></p>
