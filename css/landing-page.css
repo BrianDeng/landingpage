@@ -4,7 +4,7 @@
 		font-family: 'HelveticaNeueLTStdLtRegular', helvetica, Arial, sans-serif;
 		font-size: 18px;
 		color: #494949;
-		min-width: 1200px;
+		min-width: 1450px;
 	  }
       #header {
       	min-height: 96px;
@@ -72,6 +72,11 @@
             "liberation serif", times, serif;
         font-weight: normal;
         padding: 0 0 30px 0;
+	  }
+	  #contentspace {
+	    float: left;
+	    width: 7%;
+	    height: 478px;
 	  }
 	  #contentimage {
 	    height: 478px;
@@ -141,6 +146,7 @@
 
 	  #benefits {
 	    background: white; 
+	    
 	  }
 	  #benefits h3 {
 	    color: black;
@@ -149,11 +155,11 @@
         font-family: 'HelveticaNeueLTStdMedRegular', helvetica, sans-serif;
 	  }
 	  #benefits ul li {
-	    display: inline;
-	    float: left;
+	    display: inline-block;   
 	    width: 255px;
 	    height: 160px;
         margin: 40px 0;
+        float: left;
 	  }
 	  #benefits ul li.leftsection {
         padding: 0 20px 40px 0;
