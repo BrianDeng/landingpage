@@ -143,10 +143,14 @@
         text-decoration: none;
         cursor: pointer;
 	  }
+	  #benefitsspace {
+	    float: left;
+	    width: 5%;
+	    height: 280px;
+	  }
 
 	  #benefits {
-	    background: white; 
-	    
+	    background: white; 	    
 	  }
 	  #benefits h3 {
 	    color: black;
